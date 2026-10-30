@@ -1,0 +1,28 @@
+COCOVANTA — DELIVERY QA & HOSTING NOTES
+Review date: 30 October 2026
+
+PACKAGE IMPROVEMENTS
+- Replaced references to missing raster artwork with locally hosted original SVG illustrations and local SVG favicon.
+- Removed reference to unavailable hero MP4; hero artwork remains as local visual fallback.
+- Added custom 404 page, security-header example for compatible static hosts, updated sitemap and robots.txt.
+- Rewrote deployment documentation with exact upload and domain-update steps.
+- Preserved existing page content, product catalogue, buyer guide, quality/export explanations, calculator and WhatsApp RFQ workflow.
+
+AUTOMATED CHECKS
+- HTML files: 17 (including 404 and six product detail pages).
+- Local href/src references checked for missing files (fragment-only, mailto, tel and remote URLs excluded).
+- JavaScript syntax checked with Node.js where available.
+- XML sitemap parsed successfully.
+- All expected image references resolved to files in the package.
+
+KNOWN LIMITATIONS — MUST NOT BE MISREPRESENTED
+- This ZIP cannot establish ownership of the configured domain, DNS, hosting account or SSL certificate.
+- No live browser/device or deployed-site test was possible from the package build environment.
+- Tailwind CSS, Google Fonts and Font Awesome remain CDN dependencies. A network connection is required for those styling/icon resources.
+- RFQ hands off to WhatsApp; no server-side database, CRM, email delivery, anti-spam service or consent log is included.
+- SVGs are original illustrations and must not be presented as real photographs, supplier evidence or certified product images.
+- Business facts, supplier capacity, test reports, certifications, stock, MOQ, prices, shipment schedules and export documents require documentary confirmation by the business/suppliers.
+- Canonical URLs currently use https://cocovanta.com/. Change them if that is not the actual controlled domain.
+
+RELEASE
+The package is organized for static hosting and has passed source-level checks. “Perfect” or “no future changes needed” cannot be guaranteed before domain-specific configuration, business verification, live deployment and cross-device acceptance testing.
